@@ -23,6 +23,10 @@ public class ChavePix {
 	public ChavePix() {
 		
 	}	
+	
+	public ChavePix(String chave) {
+		this.chave = chave;
+	}
 
 	public ChavePix(String chave, TipoChavePix tipoChave) {
 		this.chave = chave;
